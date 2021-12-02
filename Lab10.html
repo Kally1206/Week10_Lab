@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> body{
+background-color: linen;
+}
+h1{
+color:maroon;
+margin-left:40px;
+}
+
+span{
+color:blue;
+border:1px solid black;
+}
+.extra span{
+color:inherit;
+}
+</style>
+<style type = "text/css">
+body{front family :arial,helvetica,sans-serif;}
+a.nodec{text-decoration:none;}
+a.hover{text-decoration:underline;}
+li{font-weight:bold;}
+li em{text-decoration:overline}
+h1,em{text-decoration:underline;}
+ul{margin-left:20px;}
+</style>
+
+<style>
+#first{
+background-color:yellow;}
+.last{
+background-color:red;}
+</style>
+<h1 style ="color:blue;">
+Style 0:
+</h1>
+</head>
+
+<body>
+<form>
+<label>Style1:
+</label>
+<input type = "color" autofocus />
+<p style = "font-size: 25pt; color:blue;">(Hexadecimal code such as #ADD8E6)</p><br><br>
+
+<label>Style2:
+</label>
+<p style= "color:red;">(yyyy-mm-dd)</p><br><br>
+
+<label>Style3:
+</label>
+<input type = "email" name = "email" placeholder="name@domain.com" required>
+<input type = "submit" name = "submit" value="submit">
+<p id = "first">(name@domain.com)</p><br>
+<p class = "last">YYDS</p><br><br>
+
+<label>Inherits:
+</label>
+<div class = "extra" style = "color:green">
+Hi,my name is <span>Gary</span>.<br><br>
+</div>
+
+<label for ="Ran"> Conflicting:
+</label>
+<h1><em>NTU</em></h1>
+
+<li>NTHU</li>
+<ul>NCKU</ul>
+<li><em>NCCU</em></li>
+
+</body>
+</form>
+</html>
